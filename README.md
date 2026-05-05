@@ -1,4 +1,5 @@
 **Oracle V$SQL_MONITOR**
+
 Oracle Database V$SQL_MONITOR is a real-time performance monitoring view used to track the execution of SQL statements.
 It helps DBAs and developers see how a SQL query is performing while it is running or just after it finishes.
 
