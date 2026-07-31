@@ -1,6 +1,6 @@
-V$SQL_MONITOR-a baxanda məqsədin bir dənədir:
+-- V$SQL_MONITOR-a baxanda məqsədin bir dənədir:
 
-Hazırda sistemi yoran SQL-i tutmaq
+-- Hazırda sistemi yoran SQL-i tutmaq
 
 
 
@@ -72,7 +72,7 @@ SET LINESIZE 300
 SET PAGESIZE 0
 
 SELECT DBMS_SQLTUNE.REPORT_SQL_MONITOR(
-    sql_id => '<4djw12tvp6836>',
+    sql_id => '4djw12tvp6836',
     type   => 'TEXT'
 ) FROM dual;
 
